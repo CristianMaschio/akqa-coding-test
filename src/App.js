@@ -1,5 +1,5 @@
 import React from "react";
-import logo from './logo.svg';
+import Home from "./pages/Home";
 import Nav from "./components/Nav";
 
 import data from "./assets/data.json";
@@ -10,6 +10,7 @@ function App() {
       <header className="app-header">
         <Nav />
       </header>
+      <Home featured={data.featured} />
     </div>
   );
 }
