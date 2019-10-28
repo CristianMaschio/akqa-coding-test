@@ -1,0 +1,45 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  height: 5rem;
+  align-items: center;
+  margin-bottom: 3px;
+
+  h1 {
+    flex: 1;
+    margin: 0 20px 0 20px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+    li {
+      display: flex;
+      list-style-type: none;
+      height: 100%;
+
+      a {
+        height: 100%;
+        display: flex;
+        padding: 0 20px 0 20px;
+
+        .nav-link {
+          align-self: center;
+        }
+
+        .cart-link {
+          align-self: center;
+          height: 21px;
+          width: auto;
+          margin: 1rem;
+        }
+      }
+      a:hover {
+        height: calc(100% + 3px);
+        border-bottom: 3px black solid;
+      }
+    }
+  }
+}
