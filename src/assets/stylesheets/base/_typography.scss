@@ -1,0 +1,46 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: $text-color;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.27273px;
+}
+
+button {
+  font-family: Fahkwang;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 1.27273px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Fahkwang;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 1.63636px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
