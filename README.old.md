@@ -1,1 +1,0 @@
-# akqa-coding-test
