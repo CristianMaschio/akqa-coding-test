@@ -1,0 +1,35 @@
+.feature-item-card {
+  margin: 0.5rem;
+
+  .background-image {
+    width: 100%;
+    height: 418px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    color: #fff;
+
+    h3 {
+      margin: 0 0 3rem 2rem;
+      width: 40%;
+      min-width: 15rem;
+    }
+  }
+
+  .feature-description {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    white-space: pre-wrap;
+    min-width: 20rem;
+
+    span {
+      margin: 2rem 0;
+    }
+
+    p {
+      padding: 0;
+      margin: 0;
+    }
+  }
+}

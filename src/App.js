@@ -10,6 +10,7 @@ function App() {
       <header className="app-header">
         <Nav />
       </header>
+      {/* here I would create a component to manage the navigation through react router */}
       <Home featured={data.featured} />
     </div>
   );

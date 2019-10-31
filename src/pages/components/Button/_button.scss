@@ -1,0 +1,39 @@
+button {
+  &.button {
+    height: 3rem;
+    width: 12rem;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+
+  &.white {
+    background-color: white;
+    color: black;
+
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+
+  &.black {
+    background-color: black;
+    color: white;
+
+    &:hover {
+      background-color: white;
+      color: black;
+      outline: 1px solid black;
+    }
+  }
+}

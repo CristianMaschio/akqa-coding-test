@@ -3,7 +3,7 @@
  */
 body {
   color: $text-color;
-  font-family: Muli;
+  font-family: "Muli";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -12,9 +12,9 @@ body {
 }
 
 button {
-  font-family: Fahkwang;
+  font-family: "Fahkwang";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   line-height: 18px;
   text-align: center;
@@ -27,9 +27,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Fahkwang;
+  font-family: "Fahkwang";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
   line-height: 23px;
   letter-spacing: 1.63636px;
